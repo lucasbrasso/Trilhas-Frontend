@@ -1,0 +1,12 @@
+.custom-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #f9fafb;
+    color: #030712;
+    border-radius: 0.5rem;
+    transition-duration: 300ms;
+    :hover {
+      background-color: #e5e7eb;
+    }
+  }

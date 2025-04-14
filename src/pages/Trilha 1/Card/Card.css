@@ -1,0 +1,45 @@
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #111827;
+  border: 1px solid #374151;
+  border-radius: 0.75rem;
+  transition: all 300ms;
+}
+
+.custom-card-image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.custom-card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.custom-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f9fafb;
+  margin-bottom: 0.75rem;
+}
+
+.custom-card-description {
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.custom-card-link:hover {
+  background-color: #e5e7eb;
+}
+@media (max-width: 640px) {
+  .custom-card {
+    width: 90%;
+  }
+}
